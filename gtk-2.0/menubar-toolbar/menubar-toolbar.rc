@@ -1,6 +1,6 @@
 style "menubar" {
 
-  bg[NORMAL] = "#5587A2"
+  bg[NORMAL] = "#91AF7A"
   fg[NORMAL] = "#ffffff"
   fg[PRELIGHT] = "#f0f0f0"
   fg[ACTIVE] = "#ffffff"
@@ -23,10 +23,10 @@ style "menubar" {
 
 style "menubar-borderless" {
 
-  bg[NORMAL] = "#5587A2"
-  fg[NORMAL] = "#5E8AA8"
+  bg[NORMAL] = "#7DA255"
+  fg[NORMAL] = "#83AF78"
   fg[SELECTED] = @fg_color
-  fg[INSENSITIVE] = shade(1.3, "#5E8AA8")
+  fg[INSENSITIVE] = shade(1.3, "#7DA255")
 
   xthickness = 0
   ythickness = 0
@@ -72,7 +72,7 @@ style "menubar-text" {
 
 style "toolbar_entry" {
 	
-  text[NORMAL] = "#5E8AA8"
+  text[NORMAL] = "#83AF78"
 
   engine "pixmap" {
 

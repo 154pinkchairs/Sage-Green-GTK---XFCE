@@ -1256,7 +1256,7 @@ toolbar:not(.inline-toolbar) .linked > entry,
 }
 .primary-toolbar {
     color: #ffffff;
-    background-color:#5E8AA8;
+    background-image: linear-gradient(60deg, #4E6659, #B5DEAA);
     box-shadow: none;
     
    
@@ -3787,7 +3787,7 @@ infobar {
 .question,
 .warning,
 .error {
-    background-color: #5E8AA8;
+    background-color: #8BA875;
     color: #ffffff;
 }
 .info label:selected:focus,
@@ -3802,7 +3802,7 @@ infobar {
 .error label:selected:focus,
 .error label:selected:hover,
 .error label:selected {
-    color: #5E8AA8;
+    color: #91AF7A;
     background-color: #ffffff;
 }
 .selection-mode.primary-toolbar button:hover,
@@ -3903,7 +3903,7 @@ row:selected button:checked,
 .warning button:checked,
 .error button:checked,
 .nautilus-window .floating-bar button:checked {
-    color: #5E8AA8;
+    color: #8BA875;
     outline-color: rgba(82, 148, 226, 0.3);
     background-color: #ffffff;
     border-color: #ffffff;
@@ -3951,7 +3951,7 @@ row:selected button:disabled:checked,
 .warning button:disabled:checked,
 .error button:disabled:checked,
 .nautilus-window .floating-bar button:disabled:checked {
-    color: #5E8AA8;
+    color: #ABC697;
     background-color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.4);
 }
@@ -5602,7 +5602,7 @@ filechooser placessidebar list{
 .nautilus-window.csd.background,
 .nautilus-window placessidebar list {
 
-    background-color: #5E8AA8;
+    background-image: linear-gradient(60deg, #4E6659, #B5DEAA);
     padding:20px;
 
 }
