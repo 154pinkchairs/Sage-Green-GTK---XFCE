@@ -24,7 +24,7 @@
 .window-frame.ssd .header-bar.default-decoration,
 .window-frame.ssd .titlebar.default-decoration {
     border-radius: 0px 0px 0 0;
-    background-color:  	#5587A2;
+    background-color:  	#779C88;
 
     padding: 0px;
 }
@@ -1287,13 +1287,13 @@ headerbar,
     padding: 0  8px;
     border-color: #d4d5db;
     color: #ffffff;
-    background-color:#5587A2;
+    background-color:#719481;
 	
     
 }
 .csd headerbar,
 .csd .titlebar:not(headerbar) {
-   	background-color:#5587A2;
+   	background-color:#719481;
    	color:#ffffff;
 	
    
@@ -1302,11 +1302,11 @@ headerbar:backdrop,
 .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
     color: rgba(255, 255, 255, 0.5);
-    background-color:#5587A2;
+    background-color:#719481;
 }
 .csd headerbar:backdrop,
 .csd .titlebar:backdrop:not(headerbar) {
-    background-color:#5587A2;
+    background-color:#719481;
 }
 headerbar .title,
 .titlebar:not(headerbar) .title {
@@ -1347,7 +1347,7 @@ headerbar.selection-mode .selection-menu .arrow,
 }
 .maximized headerbar.selection-mode,
 .maximized .selection-mode.titlebar:not(headerbar) {
-    background-color:  	#5587A2;
+    background-color:  	#719481;
 }
 .tiled headerbar,
 .tiled headerbar:backdrop,
@@ -1361,13 +1361,13 @@ headerbar.selection-mode .selection-menu .arrow,
 }
 .maximized headerbar,
 .maximized .titlebar:not(headerbar) {
-    background-color:  	#5587A2;
+    background-color:  	#719481;
 	
     
 }
 .maximized headerbar:backdrop,
 .maximized .titlebar:backdrop:not(headerbar) {
-    background-color:  	#5587A2;
+    background-color:  	#719481;
 }
 headerbar.default-decoration,
 .csd headerbar.default-decoration,
@@ -1379,7 +1379,7 @@ headerbar.default-decoration:backdrop,
 .csd .default-decoration.titlebar:backdrop:not(headerbar) {
     
     padding: 0 0px;
-    background-color:  	#5587A2;
+    background-color:  	#719481;
     border-bottom-width: 0;
 	
 }
@@ -1391,13 +1391,13 @@ headerbar.default-decoration:backdrop,
 .maximized .csd .default-decoration.titlebar:not(headerbar),
 .maximized .default-decoration.titlebar:backdrop:not(headerbar),
 .maximized .csd .default-decoration.titlebar:backdrop:not(headerbar) {
-    background-color:  	#5587A2;
+    background-color:  	#719481;
 	
 }
 .titlebar {
-    opacity: 1.0;
+    opacity: 0.9;
     color:#ffffff;
-    background-color: 	#5587A2; 
+    background-color: 	#719481; 
 
 
    
@@ -1448,13 +1448,13 @@ window > .titlebar:not(headerbar):backdrop,
 window.csd > .titlebar:not(headerbar),
 window.csd > .titlebar:not(headerbar):backdrop {
     padding: 0;
-    background:  	#5587A2;
+    background:  	#719481;
     color:#ffffff;
     border: none;
     box-shadow: none;
 }
 .titlebar:not(headerbar) > separator {
-background:  	#5587A2;
+background:  	#719481;
    }
 .primary-toolbar separator,
 headerbar separator.titlebutton,
@@ -1587,7 +1587,7 @@ headerbar button:backdrop {
 .primary-toolbar button:hover,
 headerbar button:hover {
     color: #000000;
-    border-color: #5587A2;
+    border-color: #719481;
     
     background-color: rgba(255,255,255,0.9);
 }
@@ -2312,7 +2312,7 @@ menubar,
 .menubar {
     -GtkWidget-window-dragging: true;
     padding: 0px;
-    background-color:  	#5587A2;
+    background-color:  	#719481;
     color: #ffffff;
 }
 menubar:backdrop,

@@ -1,9 +1,9 @@
 style "menubar" {
 
   bg[NORMAL] = "#91AF7A"
-  fg[NORMAL] = "#ffffff"
+  fg[NORMAL] = "#bf6b63"
   fg[PRELIGHT] = "#f0f0f0"
-  fg[ACTIVE] = "#ffffff"
+  fg[ACTIVE] = "#bf6b63"
   fg[SELECTED] = @selected_fg_color
   fg[INSENSITIVE] = shade(1.3, "#f0f0f0")
 
@@ -24,7 +24,7 @@ style "menubar" {
 style "menubar-borderless" {
 
   bg[NORMAL] = "#7DA255"
-  fg[NORMAL] = "#83AF78"
+  fg[NORMAL] = "#a5404a"
   fg[SELECTED] = @fg_color
   fg[INSENSITIVE] = shade(1.3, "#7DA255")
 
